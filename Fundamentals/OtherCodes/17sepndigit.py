@@ -153,27 +153,36 @@
 
 # Q.14 Take a two-digit number and multiply its first digit by 5 and second digit by 10.
 
-n=int(input('Enter two digit no: '))
-i=n//10
-print('First digit multiply by 5 is :',i*5)
-a=n%10
-print('Second digit multiply by 10 is :',a*10)
+# n = int(input("Enter two digit no: "))
+# i = n // 10
+# print("First digit multiply by 5 is :", i * 5)
+# a = n % 10
+# print("Second digit multiply by 10 is :", a * 10)
 
 # Q.15 Take a two-digit number and add 10 to the first digit and 20 to the second digit.
 
-n=int(input('Enter two digit no: '))
-i=n//10
-print('First digit after adding 10 is :',i+10)
-a=n%10
-print('Second digit after adding 20 is :',a+20)
+# n = int(input("Enter two digit no: "))
+# i = n // 10
+# print("First digit after adding 10 is :", i + 10)
+# a = n % 10
+# print("Second digit after adding 20 is :", a + 20)
 
 # Q.16 Take a three-digit number and print its hundreds, tens, and units digits separately.
 
 
+# Q.17 Take a three-digit number and find the sum of its digits.
 
-# Take a three-digit number and find the sum of its digits.
+n = int(input("Enter three digit number: "))
+i = n
+sum = 0
+while i > 0:
+    dig = i % 10
+    sum += dig
+    i = i // 10
+print("The sum of three-digit numbers digit is: ", sum)
+
 # Take a three-digit number and find the product of its digits.
-# Take a three-digit number and find the difference between its first and last digit.
+# Take a three-digit number and find the difference between its first and last digit.D
 # Take a three-digit number and reverse its digits.
 # Take a three-digit number and find the sum of the squares of its digits.
 # Take a three-digit number and find the sum of the cubes of its digits.
