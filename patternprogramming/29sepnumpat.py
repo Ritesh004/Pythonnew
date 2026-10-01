@@ -122,7 +122,8 @@
 # i = 1
 # while i <= 5:  # outer loop for no of rows
 #     j = 1
-#     while j <= 6 - i:  # first inner loop for left side space so the triangle will be right side lined
+#     while j <= 6 - i:
+#         # first inner loop for left side space so the triangle will be right side lined
 #         print(" ", end=" ")
 #         j += 1  # prints columns
 #     n = i
@@ -139,3 +140,96 @@
 #     3 2 1
 #   4 3 2 1
 # 5 4 3 2 1
+
+
+# Q.8
+
+# i = 1
+# while i <= 5:
+#     j = 5
+#     n = 1
+#     while j >= i:
+#         print(n, end=" ")
+#         n += 1
+#         j -= 1
+#     print()
+#     i += 1
+
+
+# 1 2 3 4 5
+# 1 2 3 4
+# 1 2 3
+# 1 2
+# 1
+
+
+# Q.9
+
+
+# i = 5
+# while i >= 1:
+#     j = 1
+#     while j <= i:
+#         print(i - j + 1, end=" ")
+#         j += 1
+#     print()
+#     i -= 1
+
+
+# 5 4 3 2 1
+# 4 3 2 1
+# 3 2 1
+# 2 1
+# 1
+
+
+# Q.10
+
+# i = 1
+# while i <= 5:
+#     j = 1
+#     n = i
+#     while j <= i:
+#         print(n, end=" ")
+#         j += 1
+#     print()
+#     i += 1
+
+
+# 1
+# 2 2
+# 3 3 3
+# 4 4 4 4
+# 5 5 5 5 5
+
+
+# Q.11
+
+
+# i = 1
+# n = 5
+# while i <= 5:
+#     j = 1
+#     while j <= i:
+#         print(n, end=" ")
+#         j += 1
+#     print()
+#     i += 1
+#     n -= 1
+
+
+# 5
+# 4 4
+# 3 3 3
+# 2 2 2 2
+# 1 1 1 1 1
+
+
+# Q.12
+
+
+#         1
+#       2 2
+#     3 3 3
+#   4 4 4 4
+# 5 5 5 5 5
