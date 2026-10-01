@@ -119,19 +119,19 @@
 
 # Q.7
 
-i = 1
-while i <= 5:
-    j = 1
-    while j <= 6 - i:
-        print(" ", end=" ")
-        j += 1
-    n = i
-    while n >= 1:
-        print(n, end=" ")
-        n -= 1
-
-    print()
-    i += 1
+# i = 1
+# while i <= 5:  # outer loop for no of rows
+#     j = 1
+#     while j <= 6 - i:  # first inner loop for left side space so the triangle will be right side lined
+#         print(" ", end=" ")
+#         j += 1  # prints columns
+#     n = i
+#     while n >= 1:
+#         print(n, end=" ")
+#         n -= 1
+#
+#     print()
+#     i += 1
 
 
 #         1
