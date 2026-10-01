@@ -78,17 +78,64 @@
 
 # Q.5
 
-i = 1
-while i <= 5:
-    j = i
-    while j >= 1:
-        print(j, end=" ")
-        j -= 1
-    print()
-    i += 1
+# i = 1
+# while i <= 5:
+#     j = i
+#     while j >= 1:
+#         print(j, end=" ")
+#         j -= 1
+#     print()
+#     i += 1
 
 # 1
 # 2 1
 # 3 2 1
 # 4 3 2 1
+# 5 4 3 2 1
+
+
+# Q.6
+
+# i = 1
+# while i <= 5:
+#     j = 1
+#     while j <= 5 - i:
+#         print(" ", end=" ")
+#         j += 1
+#     k = 1
+#     while k <= i:
+#         print(k, end=" ")
+#         k += 1
+#     print()
+#     i += 1
+
+
+#         1
+#       1 2
+#     1 2 3
+#   1 2 3 4
+# 1 2 3 4 5
+
+
+# Q.7
+
+i = 1
+while i <= 5:
+    j = 1
+    while j <= 6 - i:
+        print(" ", end=" ")
+        j += 1
+    n = i
+    while n >= 1:
+        print(n, end=" ")
+        n -= 1
+
+    print()
+    i += 1
+
+
+#         1
+#       2 1
+#     3 2 1
+#   4 3 2 1
 # 5 4 3 2 1
