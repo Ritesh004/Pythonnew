@@ -213,11 +213,14 @@
 # Problem -
 # Compute cumulative product of odds while skipping any number ending in 5.
 
-a = 1
-for i in range(21):
-    if i % 2 != 0 and i % 10 != 5:
-        a *= i
-print(a)
+# a = 1
+# for i in range(21):
+#     if i % 2 != 0 and i % 10 != 5:
+#         a *= i
+# print(a)
 
 # Problem -
 # Count how many numbers from 1 to 100 have an odd number of factors
+
+for i in range(1,101):
+    if i % 
