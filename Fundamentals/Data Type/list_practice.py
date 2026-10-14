@@ -24,33 +24,35 @@
 #         largest = i
 # print("The largest number is: ", largest)
 # print()
-# 5. Create a list of numbers and find the smallest element without using the min() function.
-print("Q.5")
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print("The minmum value is: ")
-print(min(x))
-print()
-# 6. Create a list of numbers and count how many elements are present without using the len() function.
-print("Q.6")
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-count = 0
-for i in x:
-    count += 1
-print("The lenth of list is:", count)
-print()
-# 7. Create a list of integers and count how many numbers are even and how many are odd.
-print("Q.7")
-x = [1, 2, 3, 4, 5, 7, 3, 6, 7, 8, 9, 10]
-count1 = 0
-count2 = 0
-for i in x:
-    if i % 2 == 0:
-        count1 += 1
-    else:
-        count2 += 1
-print("Even:", count1)
-print("Odd:", count2)
+# # 5. Create a list of numbers and find the smallest element without using the min() function.
+# print("Q.5")
+# x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print("The minmum value is: ")
+# print(min(x))
+# print()
+# # 6. Create a list of numbers and count how many elements are present without using the len() function.
+# print("Q.6")
+# x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# count = 0
+# for i in x:
+#     count += 1
+# print("The lenth of list is:", count)
+# print()
+# # 7. Create a list of integers and count how many numbers are even and how many are odd.
+# print("Q.7")
+# x = [1, 2, 3, 4, 5, 7, 3, 6, 7, 8, 9, 10]
+# count1 = 0
+# count2 = 0
+# for i in x:
+#     if i % 2 == 0:
+#         count1 += 1
+#     else:
+#         count2 += 1
+# print("Even:", count1)
+# print("Odd:", count2)
+# print()
 # 8. Create a list of numbers and display only the positive elements.
+print("Q.8")
 
 # 9. Create a list of numbers and display only the negative elements.
 
