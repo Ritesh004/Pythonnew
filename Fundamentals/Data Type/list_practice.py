@@ -51,11 +51,21 @@
 # print("Even:", count1)
 # print("Odd:", count2)
 # print()
-# 8. Create a list of numbers and display only the positive elements.
-print("Q.8")
+# # 8. Create a list of numbers and display only the positive elements.
+# print("Q.8")
+# l = [1, 2, 3, 4, 5, 6, 7, 8]
+# for i in l:
+#     if i % 2 == 0:
+#         print(i, end=" ")
+# print()
 
 # 9. Create a list of numbers and display only the negative elements.
-
+print("Q.9")
+l = [1, 2, -1, -2, 3, 4, -9, -10, 5, 7, 6]
+for i in l:
+    if i < 0:
+        print(i, end=" ")
+print()
 
 # 10. Create a list of integers and calculate the average of all elements.
 
@@ -138,4 +148,3 @@ print("Q.8")
 # 49. Create a list of integers and split it into two lists: one containing the first half and the other containing the second half.
 
 # 50. Create a list of integers and find the longest consecutive sequence of increasing elements present in the list.
-
