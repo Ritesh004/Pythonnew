@@ -138,20 +138,3 @@
 #
 
 
-n = 4
-
-for i in range(n):
-    if i == 0:
-        print(1)
-    else:
-        for j in range(1, i + 1):
-            print(j, end="")
-            if j < i:
-                print(chr(64 + j), end="")
-
-        for j in range(i, 0, -1):
-            if j == i:
-                print(chr(64 + j - 1), end="")
-            print(j, end="")
-
-        print()

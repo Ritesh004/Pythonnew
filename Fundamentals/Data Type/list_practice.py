@@ -59,36 +59,111 @@
 #         print(i, end=" ")
 # print()
 
-# 9. Create a list of numbers and display only the negative elements.
-print("Q.9")
-l = [1, 2, -1, -2, 3, 4, -9, -10, 5, 7, 6]
-for i in l:
-    if i < 0:
-        print(i, end=" ")
-print()
+# # 9. Create a list of numbers and display only the negative elements.
+# print("Q.9")
+# l = [1, 2, -1, -2, 3, 4, -9, -10, 5, 7, 6]
+# for i in l:
+#     if i < 0:
+#         print(i, end=" ")
+# print()
 
-# 10. Create a list of integers and calculate the average of all elements.
+# # 10. Create a list of integers and calculate the average of all elements.
+# print("Q.10")
+# l = [1, 2, 3, 4, 5, 6, 7, 8]
+# print(sum(l) / len(l))
+# print()
+#
+# # 11. Create a list of numbers and search for a given element. Display whether the element is present in the list.
+# print("Q.11")
+# l = [1, 2, 3, 4, 5, 6, 7, 8]
+# if 9 in l:
+#     print("Yes")
+# else:
+#     print("No")
+# print()
 
-# 11. Create a list of numbers and search for a given element. Display whether the element is present in the list.
-
-# 12. Create a list of numbers and count how many times a given element occurs without using the count() method.
-
-# 13. Create a list of numbers and remove all duplicate elements while preserving the original order.
-
-# 14. Create a list of integers and create a new list containing only the unique elements.
-
-# 15. Create a list of numbers and reverse the list without using the reverse() method or slicing.
-
-# 16. Create a list of numbers and sort the elements in ascending order without using the sort() method.
-
-# 17. Create a list of numbers and sort the elements in descending order without using the sort() method.
-
-# 18. Create a list of integers and create two separate lists containing even and odd numbers.
-
-# 19. Create a list of numbers and create a new list containing the squares of all elements.
-
+# # 12. Create a list of numbers and count how many times a given element occurs without using the count() method.
+# print("Q.12")
+# l = [1, 2, 5, 4, 5, 6, 5, 8]
+#
+# a = int(input("Enter the number:"))
+# count = 0
+# for i in l:
+#     if a == i:
+#         count += 1
+# print("The number occured", count, "times")
+# print()
+# # 13. Create a list of numbers and remove all duplicate elements while preserving the original order.
+# print("Q.13")
+# l = [1, 1, 2, 3, 4, 3, 5, 6, 7, 4, 8, 9]
+# for i in l:
+#     if l.count(i) > 1:
+#         l.remove(i)
+# print(l)
+# print()
+# # 14. Create a list of integers and create a new list containing only the unique elements.
+# print("Q.14")
+# l = [1, 1, 2, 3, 4, 5, 3, 6, 7, 8, 5, 6, 0, 10]
+# a = []
+# for i in l:
+#     if l.count(i) < 2:
+#         a.append(i)
+# print(a)
+# print()
+# # 15. Create a list of numbers and reverse the list without using the reverse() method or slicing.
+# print("Q.15")
+# l = [1, 2, 3, 4, 5, 6, 7, 8]
+# a = 0
+# b = len(l) - 1
+# while a < b:
+#     l[a], l[b] = l[b], l[a]
+#     a += 1
+#     b -= 1
+# print(l)
+# # 16. Create a list of numbers and sort the elements in ascending order without using the sort() method.
+# print("Q.16")
+# l = [64, 34, 25, 12, 22, 11]
+# n = len(l)
+# for i in range(n):
+#     for j in range(n - 1):
+#         if l[j] > l[j + 1]:
+#             l[j], l[j + 1] = l[j + 1], l[j]
+# print(l)
+# # 17. Create a list of numbers and sort the elements in descending order without using the sort() method.
+# print("Q.17")
+# l = [64, 34, 25, 12, 22, 11]
+# n = len(l)
+# for i in range(n):
+#     for j in range(n - 1):
+#         if l[j] < l[j + 1]:
+#             l[j], l[j + 1] = l[j + 1], l[j]
+# print(l)
+# # 18. Create a list of integers and create two separate lists containing even and odd numbers.
+# print("Q.18")
+# l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# even = []
+# odd = []
+# for i in l:
+#     if i % 2 == 0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(even)
+# print(odd)
+# # 19. Create a list of numbers and create a new list containing the squares of all elements.
+# print("Q.19")
+# l = [1, 2, 3, 4, 5, 6, 7, 8]
+# a = []
+# for i in l:
+#     a.append(i**2)
+# print(a)
 # 20. Create a list of integers and create a new list containing the cubes of all elements.
-
+print("Q.20")
+l = [1, 2, 3, 4, 5, 6, 7, 8]
+a = []
+for i in l:
+    a.append(i**3)
+print(a)
 # 21. Create a list of numbers and replace every negative number with zero.
 
 # 22. Create a list of integers and replace every even number with its square.
