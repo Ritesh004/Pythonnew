@@ -120,6 +120,7 @@
 #     a += 1
 #     b -= 1
 # print(l)
+# print()
 # # 16. Create a list of numbers and sort the elements in ascending order without using the sort() method.
 # print("Q.16")
 # l = [64, 34, 25, 12, 22, 11]
@@ -129,6 +130,7 @@
 #         if l[j] > l[j + 1]:
 #             l[j], l[j + 1] = l[j + 1], l[j]
 # print(l)
+# print()
 # # 17. Create a list of numbers and sort the elements in descending order without using the sort() method.
 # print("Q.17")
 # l = [64, 34, 25, 12, 22, 11]
@@ -138,6 +140,7 @@
 #         if l[j] < l[j + 1]:
 #             l[j], l[j + 1] = l[j + 1], l[j]
 # print(l)
+# print()
 # # 18. Create a list of integers and create two separate lists containing even and odd numbers.
 # print("Q.18")
 # l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -150,6 +153,7 @@
 #         odd.append(i)
 # print(even)
 # print(odd)
+# print()
 # # 19. Create a list of numbers and create a new list containing the squares of all elements.
 # print("Q.19")
 # l = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -157,6 +161,7 @@
 # for i in l:
 #     a.append(i**2)
 # print(a)
+# print()
 # 20. Create a list of integers and create a new list containing the cubes of all elements.
 print("Q.20")
 l = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -164,7 +169,9 @@ a = []
 for i in l:
     a.append(i**3)
 print(a)
+print()
 # 21. Create a list of numbers and replace every negative number with zero.
+print("Q.21")
 
 # 22. Create a list of integers and replace every even number with its square.
 
