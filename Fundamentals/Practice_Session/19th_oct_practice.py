@@ -114,17 +114,8 @@
 # A       E
 # A       E
 # A B C D E
-i = 1
-ch = 65
-while i in range(5):
-    j = 1
-    while j in range(5):
-        if i == 1 or i == 5 or j == 1 or j == 5:
-            print(chr(ch), end=" ")
-        ch += 1
-        j += 1
-    print()
-    i += 1
+
+
 # 19. Mixed Triangle
 # Input: n = 4
 # Output:
@@ -140,3 +131,37 @@ while i in range(5):
 # & &
 # & & &
 # & & & &
+#
+# 2. Centered Alphabet Mirror Pyramid
+# Input: n = 4
+# Expected Output:
+#        A
+#     B C B
+#   C D E D C
+# D E F G F E D
+# Interview focus: Use row-based starting letters and mirror the row around its center.
+#
+#
+# 3. Alpha-Numeric Hourglass
+# Input: n = 4
+# Expected Output:
+# A1 B2 C3 D4
+#     A1 B2 C3
+#       A1 B2
+#         A1
+#      A1 B2
+#    A1 B2 C3
+# A1 B2 C3 D4
+# Interview focus: Create a shrinking top half and an expanding bottom half.
+#
+# 4. Number-Symbol Sandglass
+# Input: n = 4
+# Expected Output:
+# 1 # 2 # 3 # 4
+#     1 # 2 # 3
+#        1 # 2
+#           1
+#       1 # 2
+#     1 # 2 # 3
+# 1 # 2 # 3 # 4
+# Interview focus: Alternate numbers and # while changing row width in both directions.
