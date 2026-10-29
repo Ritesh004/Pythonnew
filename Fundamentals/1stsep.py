@@ -100,56 +100,57 @@
 # count+=1
 # print('count:',count)
 
-#Q.15
-print('Q.15')
+# Q.15
+print("Q.15")
 
-num=5
-num*2
-num*2
-num*2
-print('num:',num)
+num = 5
+num * 2
+num * 2
+num * 2
+print("num:", num)
 
-#Q.16
-print('Q.16')
+# Q.16
+print("Q.16")
 
-x=100
-x/=2
-x/=2
-print('x:',x)
+x = 100
+x /= 2
+x /= 2
+print("x:", x)
 
-#Q.17
-print('Q.17')
+# Q.17
+print("Q.17")
 
-x=10
-x+=5
-x-=3
-x*=2
-print('x:',x)
+x = 10
+x += 5
+x -= 3
+x *= 2
+print("x:", x)
 
-#Q.18
-print('Q.18')
+# Q.18
+print("Q.18")
 
-x=20
-x-=5
-x*=3
-x/=5
-print('x:',x)
+x = 20
+x -= 5
+x *= 3
+x /= 5
+print("x:", x)
 
-#Q.19
-print('Q.19')
+# Q.19
+print("Q.19")
 
-price=500
-price+=100
-price-=50
-print('price:',price)
+price = 500
+price += 100
+price -= 50
+print("price:", price)
 
-#Q.20
-print('Q.20')
+# Q.20
+print("Q.20")
 
-score=10
-score+=5
-score+=5
-score+=5
-score+=5
-score+=5
-print('score:',score)
+score = 10
+score += 5
+score += 5
+score += 5
+score += 5
+score += 5
+print("score:", score)
+

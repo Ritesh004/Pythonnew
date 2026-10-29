@@ -141,3 +141,18 @@ print(b)
 # Do not use a set.
 # Input: [3, 1, 3, 2, 1, 4]
 # Output: [3, 1, 2, 4]
+
+# 16. Find common elements
+# Return common values once, in list a order.
+# Input: a = [1, 4, 6, 8], b = [2, 4, 8, 9]
+# Output: [4, 8]
+#
+# 17. Move zeros to the end
+# Keep non-zero values in their original order.
+# Input: [0, 5, 0, 2, 7, 0, 1]
+# Output: [5, 2, 7, 1, 0, 0, 0]
+#
+# 18. Check if a list is a palindrome
+# Do not use slicing or reverse().
+# Input: [1, 2, 3, 2, 1]
+# Output: Palindrome
