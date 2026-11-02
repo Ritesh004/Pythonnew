@@ -166,9 +166,9 @@
 # Write a program to update the price of "Mobile" from 15000 to 18000.
 #
 # Input:
-products = {"Laptop": 55000, "Mobile": 15000, "Mouse": 500}
-products["Mobile"] = 18000
-print(products)
+# products = {"Laptop": 55000, "Mobile": 15000, "Mouse": 500}
+# products["Mobile"] = 18000
+# print(products)
 #
 #
 # Output:
@@ -385,3 +385,36 @@ print(products)
 #
 # Output:
 # {    'Python': 90,    'Java': 85,    'SQL': 80,    'HTML': 75}
+
+
+# sum all values in dict
+# prices = {"i1": 45.50, "i2": 35.00, "i3": 41.30}
+# sum = 0
+# for i in prices.values():
+#     sum += i
+# print(sum)
+
+# find the key with max value
+# dict = {"player1": 50, "player2": 82, "player3": 64}
+# maxk = 0
+# maxv = 0
+# for key, value in dict.items():
+#     if value > maxv:
+#         maxv = value
+#         maxk = key
+# print(maxk, maxv)
+
+
+# combine two dict by adding values for common keys
+# d1 = {"a": 100, "b": 200, "c": 300}
+# d2 = {"a": 300, "b": 200, "d": 400}
+# d3 = {}
+# for key, value in d1.items():
+#     d3[key] = value
+#
+# for key, value in d2.items():
+#     if key in d3:
+#         d3[key] = d3[key] + value
+#     else:
+#         d3[key] = value
+# print(d3)
