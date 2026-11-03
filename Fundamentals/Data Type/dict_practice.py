@@ -418,3 +418,172 @@
 #     else:
 #         d3[key] = value
 # print(d3)
+
+
+# d = {"a": 85, "b": 92, "c": 78, "d": 95, "e": 88}
+# f = 0
+# s = 0
+# for key in d:
+#     if d[key] > f:
+#         s = f
+#         f = d[key]
+#     elif d[key] > s:
+#         s = d[key]
+# print("highest value:", f)
+# print("second highest value:", s)
+
+#
+# words = ["apple", "ant", "banana", "ball", "cat", "car"]
+# d = {}
+# for w in words:
+#     first = w[0]
+#     if first in d:
+#         d[first].append(w)
+#     else:
+#         d[first] = [w]
+# print(d)
+
+
+# d = {"a": 10, "b": 20, "c": 10, "d": 30, "e": 20}
+# d1 = {}
+# for key in d:
+#     if d[key] not in d1.values():
+#         d1[key] = d[key]
+# print(d1)
+
+
+# d = {"a": 80, "b": 60, "c": 90, "d": 70, "e": 100}
+# r = {}
+# count = 0
+# avg = sum(d.values()) / len(d)
+# print("Avg:", avg)
+# for key in d:
+#     if d[key] > avg:
+#         r[key] = d[key]
+#         count += 1
+# print(r)
+# print(count)
+
+
+# d = {"a": 12, "b": 15, "c": 20, "d": 25, "e": 30}
+# even = {}
+# for key in d:
+#     if d[key] % 2 == 0:
+#         even[key] = d[key]
+# print(even)
+
+
+# find keys with values appear more than twice
+# d = {"a": 10, "b": 20, "c": 10, "d": 30, "e": 20}
+
+
+# Python Dictionary – Level 2 Practice Assignment
+# Topic: Dictionary Coding Questions
+# Total Questions: 10
+# Difficulty: Level 2 – Intermediate
+# Instructions: Solve all questions using Python dictionaries. Write the logic without using built-in shortcuts wherever possible.
+# Q1. Find the Key with the Minimum Value
+# Input:
+# d = {'A': 45, 'B': 20, 'C': 65, 'D': 10, 'E': 35}
+#
+#
+#
+# Expected Output:
+# Minimum Key: D
+# Minimum Value: 10
+#
+#
+# Q2. Count the Occurrence of Each Character
+# Input:
+# s = "banana"
+#
+#
+#
+# Expected Output:
+# {'b': 1, 'a': 3, 'n': 2}
+#
+#
+#
+# Q3. Find All Keys Having Values Divisible by 5
+# Input:
+# d = {'a': 15, 'b': 22, 'c': 30, 'd': 17, 'e': 45}
+#
+#
+#
+# Expected Output:
+# {'a': 15, 'c': 30, 'e': 45}
+#
+#
+#
+# Q4. Find the Sum of Values Having Even Keys
+# Input:
+# d = {1: 100, 2: 200, 3: 300, 4: 400, 5: 500}
+#
+#
+#
+# Expected Output:
+# Sum: 600
+#
+#
+# Q5. Find the Keys Having the Same Values
+# Input:
+# d = {'a': 10, 'b': 20, 'c': 10, 'd': 30, 'e': 20, 'f': 40}
+#
+#
+#
+# Expected Output:
+# {'a': 10, 'b': 20, 'c': 10, 'e': 20}
+#
+#
+#
+# Q6. Create a Dictionary of Numbers and Their Cubes
+# Input:
+# numbers = [2, 3, 4, 5, 6]
+#
+#
+#
+# Expected Output:
+# {2: 8, 3: 27, 4: 64, 5: 125, 6: 216}
+#
+#
+#
+# Q7. Find the Total Salary of Employees
+# Input:
+# employees = {    'Amit': 25000,    'Rahul': 30000,    'Priya': 35000,    'Sneha': 40000}
+#
+#
+#
+# Expected Output:
+# Total Salary: 130000
+#
+#
+# Q8. Replace All Values Less Than 50 with Zero
+# Input:
+# d = {'a': 25, 'b': 60, 'c': 40, 'd': 80, 'e': 15}
+#
+#
+#
+# Expected Output:
+# {'a': 0, 'b': 60, 'c': 0, 'd': 80, 'e': 0}
+#
+#
+#
+# Q9. Find the Common Values Between Two Dictionaries
+# Input:
+# d1 = {'a': 10, 'b': 20, 'c': 30, 'd': 40}d2 = {'p': 20, 'q': 50, 'r': 30, 's': 60}
+#
+#
+#
+# Expected Output:
+# [20, 30]
+#
+#
+#
+# Q10. Group Numbers Based on Even and Odd
+# Input:
+# numbers = [10, 15, 20, 25, 30, 35, 40, 45]
+#
+#
+#
+# Expected Output:
+# {    'Even': [10, 20, 30, 40],    'Odd': [15, 25, 35, 45]}
