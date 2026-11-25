@@ -181,3 +181,151 @@
 #
 # result = second_largest_digit(998531)
 # print(result)
+
+
+# -----------------Section B – Number Logic & Mathematical Operations------------------------------------------
+
+# Q.11. Check Harshad Number
+
+
+# def is_harshad(num):
+#
+#     digit_sum = 0
+#     temp = num
+#     while temp > 0:
+#         digit_sum += temp % 10
+#         temp //= 10
+#     return num % digit_sum == 0
+#
+#
+# result = is_harshad(18)
+# print(result)
+
+
+# Q.12.  Check Automorphic Number
+
+
+# def is_automorphic(num):
+#
+#     square = num * num
+#     temp = num
+#
+#     while temp > 0:
+#         if temp % 10 != square % 10:
+#             return False
+#         temp //= 10
+#         square //= 10
+#     return True
+#
+#
+# result = is_automorphic(25)
+# print(result)
+
+
+# Q.13.  Find GCD of Two Numbers
+
+
+# def find_gcd(a, b):
+#     for i in range(min(a, b), 0, -1):
+#         if a % i == 0 and b % i == 0:
+#             return i
+#
+#
+# result = find_gcd(24, 36)
+# print(result)
+
+
+# Q.14. Find LCM of Two Numbers
+
+
+# Q.15.  Calculate Power
+
+
+# def calculate_power(base, exponent):
+#     total = 1
+#     for _ in range(exponent):
+#         total *= base
+#     return total
+#
+#
+# result = calculate_power(3, 4)
+# print(result)
+
+
+# ------------------------Section C – Series & Combined Operations------------------------------------------
+
+
+# Q.16.  Generate Fibonacci Series
+
+
+# def fibonacci(n):
+#     series = []
+#     a, b = 0, 1
+#     for _ in range(n):
+#         series.append(a)
+#         a, b = b, a + b
+#     return series
+#
+#
+# result = fibonacci(7)
+# print(result)
+
+
+# Q.17.  Find Factorial
+
+
+# def factorial(num):
+#     fact = 1
+#     for i in range(2, num + 1):
+#         fact *= i
+#     return fact
+#
+#
+# result = factorial(5)
+# print(result)
+
+
+# Q.18. Count Digits
+
+
+# def count_digits(num):
+#     num = abs(num)
+#     if num == 0:
+#         return 1
+#
+#     count = 0
+#     while num > 0:
+#         count += 1
+#         num //= 10
+#     return count
+#
+#
+# result = count_digits(90752)
+# print(result)
+
+
+# Q.19. Sum of Even and Odd Digits
+
+
+# def digit_sums(num):
+#     digits = [int(d) for d in str(abs(num))]
+#     even_sum = sum(d for d in digits if d % 2 == 0)
+#     odd_sum = sum(d for d in digits if d % 2 != 0)
+#     return (even_sum, odd_sum)
+#
+#
+# result = digit_sums(123456)
+# print(result)
+
+
+# Q.20. Check Co-Prime Numbers
+
+
+# def are_coprime(a, b):
+#     while b != 0:
+#         a, b = b, a % b
+#     return a == 1
+#
+#
+# result = are_coprime(8, 15)
+# print(result)
