@@ -1,5 +1,5 @@
 # Q.1. Check Palindrome Number
-
+# print('Q.1.')
 #
 # def check(num):
 #     og = num
@@ -17,6 +17,7 @@
 
 
 # Q.2. Check Armstrong Number
+# print('Q.2.')
 
 
 # def arm(num):
@@ -37,6 +38,7 @@
 
 
 # Q.3. Check Prime Number
+# print('Q.3.')
 
 
 # def prime(num):
@@ -54,6 +56,7 @@
 
 
 # Q.4. Check Perfect Number
+# print('Q.4.')
 
 
 # def is_perfect(num):
@@ -74,6 +77,7 @@
 
 # Q.5. Check Strong Number
 
+# print('Q.5.')
 
 # def is_strong(num):
 #
@@ -92,6 +96,7 @@
 # print(is_strong(145))
 
 # Q.6.  Reverse a Number
+# print('Q.6.')
 
 #
 # def reverse(num):
@@ -111,6 +116,7 @@
 
 
 # Q.7.  Sum of Digits
+# print('Q.7.')
 
 
 # def sum(num):
@@ -126,6 +132,7 @@
 
 
 # Q.8. Count Even Digits
+# print('Q.8.')
 
 
 # def even(num):
@@ -144,6 +151,7 @@
 
 
 # Q.9. Find Largest Digit
+# print('Q.9.')
 
 
 # def largest(num):
@@ -162,6 +170,7 @@
 
 
 # Q.10. Find Second-Largest Unique Digit
+# print('Q.10.')
 
 
 # def second_largest_digit(num):
@@ -186,6 +195,7 @@
 # -----------------Section B – Number Logic & Mathematical Operations------------------------------------------
 
 # Q.11. Check Harshad Number
+# print('Q.11.')
 
 
 # def is_harshad(num):
@@ -203,6 +213,7 @@
 
 
 # Q.12.  Check Automorphic Number
+# print('Q.12.')
 
 
 # def is_automorphic(num):
@@ -223,6 +234,7 @@
 
 
 # Q.13.  Find GCD of Two Numbers
+# print('Q.13.')
 
 
 # def find_gcd(a, b):
@@ -239,6 +251,7 @@
 
 
 # Q.15.  Calculate Power
+# print('Q.15.')
 
 
 # def calculate_power(base, exponent):
@@ -256,6 +269,7 @@
 
 
 # Q.16.  Generate Fibonacci Series
+# print('Q.16.')
 
 
 # def fibonacci(n):
@@ -272,6 +286,7 @@
 
 
 # Q.17.  Find Factorial
+# print('Q.17.')
 
 
 # def factorial(num):
@@ -286,6 +301,7 @@
 
 
 # Q.18. Count Digits
+# print('Q.18.')
 
 
 # def count_digits(num):
@@ -305,6 +321,7 @@
 
 
 # Q.19. Sum of Even and Odd Digits
+# print('Q.19.')
 
 
 # def digit_sums(num):
@@ -319,13 +336,14 @@
 
 
 # Q.20. Check Co-Prime Numbers
+print("Q.20.")
 
 
-# def are_coprime(a, b):
-#     while b != 0:
-#         a, b = b, a % b
-#     return a == 1
-#
-#
-# result = are_coprime(8, 15)
-# print(result)
+def are_coprime(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a == 1
+
+
+result = are_coprime(8, 15)
+print(result)

@@ -524,17 +524,25 @@
 # reverse num
 
 
-def reverse(num):
-    og = num
-    rev = 0
+# def reverse(num):
+#     og = num
+#     rev = 0
+#
+#     while og > 0:
+#         digit = og % 10
+#         rev = rev * 10 + digit
+#         og //= 10
+#
+#     return rev
+#
+#
+# result = reverse(12345)
+# print(result)
 
-    while og > 0:
-        digit = og % 10
-        rev = rev * 10 + digit
-        og //= 10
 
-    return rev
+# lambda function
+#
 
-
-result = reverse(12345)
+add = lambda a, b: a + b
+result = add(10, 20)
 print(result)
